@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ziya Ahmed">
+        <meta name="description" content="Creating my portfolio using html and css.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+             <nav>
+                <h1>PORTFOLIO</h1>
+                <ul>
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio1">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+             </nav>
+             <img src="images.p/bgimage1.jpeg" class="image1"> 
+             <div class="intro">
+                <p>WEB DEVELOPER</p>
+                <H1>Hello,<br> I am <span>Ziya Ahmed</span></H1>
+                <p>I am a second year engineering student, pursuing my bachelors degree from BIT Durg. I am a hardworking and fast learning student with sheer focus and determination. I aspire to excel in my field and have expiriences which will help me in developing skills, along the way.</p>
+                
+             </div> 
+             </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-me1">
+                        <img src="images.p/image.new.jpeg" class="image2">
+                    </div>
+                    <div class="about-me2">
+                        <h1>About me</h1>
+                        <p>I am an engineering student from Informstion Technology branch. I am currently in second year and my primary focus for now is to achieve good academic results and develop new and beneficial skills through internships and learning new courses.
+                            My hardwork and eager-to-learn personality makes it easy for me to achieve my goals.
+                        </p>
+                        <div class="tab-titles">
+                           <!--- <p class="tab-links active-link" onclick="opentab('skills')">Skills </p> -->
+                           <p class="tab-links active-link" onclick="opentab('education')">Education </p>
+                           <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                           
+
+                        </div>
+                       <!-- <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li> <span>HTML (Hyper Text Markup Language) </span><br> 
+                                Web Development</li>
+                                <Li><span> (Cascading StyleSheet) </span><br>
+                                    Front-end Web Development
+                                </Li>
+                                <li> <span>JavaScript<br></span>
+                                Web?/App Development
+                                </li>
+                            </ul> 
+                        </div> -->
+                          <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>2024</span> <br>Currently in B.Tech 2nd Year</li>
+                                <li><span>2022</span><br>CBSE 12th Board from DPS Durg</li>
+                                <li><span>2020</span><br>CBSE 10th Board from DPS Durg</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                         <ul>
+                            <li>Developed a Landing page as a part of internshio programme for CodSoft</li>
+                            <li>Tally Counter</Li>
+                           </ul>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div id="skills">
+            <div class="container">
+                <br>
+                <br>
+
+                <h1 class="skillsheading" align="center  ">My Skills</h1>
+                <div class="skills-list">
+                    <div>
+                        <img src="images.p/htmlicon.png">
+                        <h2>HTML</h2>
+                        <p> An HTML document is a file that contains HTML code, which is the standard markup language for creating web pages. An HTML document describes the structure and content of a web page, and can include text, images, links, and other elements
+                      </p>
+                    </div>
+                    <div>
+                        <img src="images.p/cssicon.png">
+                        <h2>CSS</h2>
+                        <p>CSS or Cascading Style Sheets is a stylesheet language that is used to describe the presentation of a document written in HTML or XML. CSS can control the layout, color, font, and other aspects of how elements are rendered on screen, on paper, in speech, or on other media
+                      </p>
+                    </div>
+                    <div>
+                        <img src="images.p/jsicon.png">
+                        <h2>JAVASCRIPT</h2>
+                        <p>JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio1">
+            <div class="container">
+                <h1 class="my-work"> My Work </h1>
+                <div class="work-list">
+                   
+                    <div class="work">
+                        <img src="images.p/calculator.png">
+                        <div class="layer"><h3>Calculator</h3>
+                        <p>
+                            An online calculator which allows you to perform <br>
+                            calculations without any fuss.
+                        </p>
+                    <a href=""></a></div>
+                    </div>
+                    <div class="work">
+                        <img src="images.p/hotelclone.jpg">
+                        <div class="layer"><h3>Hotel Website</h3>
+                            <p>
+                              A clone of hotel site.
+                            </p>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="images.p/golf.jpg">
+                        <div class="layer"><h3>Landing Page</h3>
+                            <p>
+                               A Landing Page for Golf club membership.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="contact-me">Contact Me</h1>
+                        <br>
+                        <h2 id="cm">E-mail:</h2>
+                        <p><a href="mailto:ziyahmed305@gmail.com" class="email" id="contact-link">ziyahmed305@gmail.com</a></p>
+                        <br>
+                        <h2 id="cm">Telephone:</h2>
+                        <p><a href="tel:+91 0788112233" class="telephone" id="contact-link">+91 0788 1122 33</a></p>
+                        <br>
+                        <h2 id="cm">Social Media:</h2>
+                        <div class="social-icons">
+                           <a href="https://www.facebook.com/profile.php?id=100088448256893&mibextid=kFxxJD"> <img src="images.p/facebookicon.png" class="facebook"> </a>
+                           <a href="https://www.instagram.com/ziiyaahmed?igsh=MTlja2FwZm8ya28ycQ%3D%3D&utm_source=qr"><img src="images.p/instaicon.png" class="insta"> </a>
+                            <a href="https://www.linkedin.com/in/ziya-ahmed-55a958257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="images.p/liicon.png" class="linked-in"></a>
+                           <a href="https://x.com/home"><img src="images.p/twittericon.png" class="twitter"></a>
+
+                      
+                        </div> </div>
+                        <a href="" class="btn btn2"><button class="dlbtn">Download CV</button></a>
+                        <div class="contact-right">
+                        <form class="form" >
+                            <p>
+                            <input type="text" name="Name" placeholder="Your Name" required></p><br>
+
+                            <p>
+                            <input type="email" name="email" placeholder="Your Email" required></p> <br>
+                            <p>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea></p> <br>
+                            <p>
+                            <button type="submit">Submit</button></p>
+                        </form>
+                        </div>
+               
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tablinks = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                }
+                for(tablink of tablinks){
+                tablink.classList.remove("active-tab");}
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+    </body>
+</html>
